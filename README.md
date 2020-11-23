@@ -4,6 +4,6 @@
 
 [Termite](https://aur.archlinux.org/packages/termite-git)
 
-[picom](https://aur.archlinux.org/packages/termite-git
+[picom](https://aur.archlinux.org/packages/termite-git)
 
 [Flameshot](https://aur.archlinux.org/packages/flameshot-git)
