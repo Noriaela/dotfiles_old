@@ -10,6 +10,8 @@
 
 [Flameshot](https://aur.archlinux.org/packages/flameshot-git)
 
+[Feh](https://www.archlinux.org/packages/extra/x86_64/feh/)
+
 ### Fonts
 
 [Font Awesome](https://aur.archlinux.org/packages/ttf-font-awesome-4/)
