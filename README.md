@@ -14,6 +14,8 @@
 
 [Feh](https://www.archlinux.org/packages/extra/x86_64/feh/)
 
+[Rofi](https://archlinux.org/packages/community/x86_64/rofi/)
+
 ### Fonts
 
 [Font Awesome](https://aur.archlinux.org/packages/ttf-font-awesome-4/)
