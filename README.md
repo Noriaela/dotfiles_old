@@ -8,7 +8,7 @@
 
 [Kitty](https://archlinux.org/packages/community/x86_64/kitty/)
 
-[picom](https://aur.archlinux.org/packages/termite-git)
+[picom](https://archlinux.org/packages/community/x86_64/picom/)
 
 [Flameshot](https://aur.archlinux.org/packages/flameshot-git)
 
