@@ -6,7 +6,7 @@
 
 [i3status-rs](https://www.archlinux.org/packages/community/x86_64/i3status-rust/)
 
-[Termite](https://aur.archlinux.org/packages/termite-git)
+[Kitty](https://archlinux.org/packages/community/x86_64/kitty/)
 
 [picom](https://aur.archlinux.org/packages/termite-git)
 
