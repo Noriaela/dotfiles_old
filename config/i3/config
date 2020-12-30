@@ -56,7 +56,8 @@ bindsym $mod+Shift+q kill
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 
 # start i3lock to lock PC
-bindsym $mod+l exec "i3lock-fancy -t 'Welcome Back Harley. Please Login.'"
+bindsym $mod+l exec "betterlockscreen --lock blur
+#bindsym $mod+l exec "i3lock-fancy -t 'Welcome Back Harley. Please Login.'"
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
