@@ -2,7 +2,7 @@
 
 ### Arch Packages
 
-[i3](https://www.archlinux.org/packages/community/x86_64/i3-wm)
+[i3-gaps](https://www.archlinux.org/packages/community/x86_64/i3-gaps)
 
 [i3status-rs](https://www.archlinux.org/packages/community/x86_64/i3status-rust/)
 
