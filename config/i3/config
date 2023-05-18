@@ -34,10 +34,13 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Launch Picom
-exec --no-startup-id "picom --config $HOME/.config/picom/picom.conf"
+exec --no-startup-id picom --config $HOME/.config/picom/picom.conf
 
 # Start Wallpaper
-exec feh --bg-scale $HOME/.config/wallpapers/punishing.png
+exec --no-startup-id feh --bg-scale $HOME/.config/wallpapers/anime.png
+
+# Start dunst [notifications]
+exec --no-startup-id dunst
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -50,13 +53,14 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # Application Launcher
-bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh 
+#bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 
 # change focus
 bindsym $mod+j focus left
@@ -144,7 +148,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+shift+e exec --no-startup-id ~/.config/rofi/powermenu/type-1/powermenu.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
